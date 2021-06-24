@@ -1,23 +1,26 @@
-.blueDashSympol{
+.blue-dash-sympol{
     margin-top: -2em;
     color: rgb(41, 205, 255);
 }
-.workerStatContainer{
+.worker-stat-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.statNumber{
+.stat-number{
     font-weight: bold;
     font-size: 3em;
 }
-.workerStat{
+.worker-stat{
     display: flex;
     flex-direction: row;
     margin: 10px;
     max-width: 15%;
 }
-.simpleIcon{
+.simple-icon{
     max-width: 45%;
     max-height: 45%;
+}
+.stat-description{
+
 }
