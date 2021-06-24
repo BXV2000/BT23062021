@@ -6,7 +6,8 @@
     color: rgb(41, 205, 255);
 }
 .worker-stat-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -26,4 +27,22 @@
 }
 .stat-description{
     color: rgb(34, 54, 90);
+}
+@media screen and (max-width:995px){
+    .worker-stat-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:700px){
+    .worker-stat-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
