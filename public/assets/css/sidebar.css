@@ -1,9 +1,9 @@
 .container {
-  background-color: black;
+  background-color: blue;
   width: 300px;
-  height: auto;
+  height: 100vh;
 }
 
 .sidebarPicture {
-  width: 100px;
+  width: 300px;
 }
