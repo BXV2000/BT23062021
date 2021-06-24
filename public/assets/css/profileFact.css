@@ -21,10 +21,9 @@
     max-width: 15%;
 }
 .simple-icon{
-    max-width: 45%;
-    max-height: 45%;
+    width: 45px;
+    height: 45px;
 }
 .stat-description{
     color: rgb(34, 54, 90);
 }
-
