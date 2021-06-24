@@ -1,8 +1,79 @@
-.container {
-  width: 300px;
-  height: auto;
+.sidebar-container {
+  background-color: #020912;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100%;
+  position: fixed;
 }
 
-.sidebarPicture {
+.sidebar-picture {
   width: 100px;
+  border-radius: 50%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #2c2f3d;
+}
+
+.sidebar-container > h1 {
+  color: #6d6e7c;
+  margin: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sidebar-icons {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.sidebar-icons > img {
+  width: 12px;
+  height: 12px;
+  padding: 8px;
+  background-color: #20232f;
+  color: white;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.sidebar-container > a {
+  text-decoration: none;
+  color: #848790;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.sidebar-container > a:hover {
+  color: #429bd4;
+}
+
+/*
+  .char :hover{
+    .con{
+      sdfajhsdklfhasjk
+    }
+  }
+*/
+
+.sidebar-container .sidebar-menu-text:hover {
+  color: #ffffff;
+}
+
+.sidebar-footer {
+  color: #ffffff;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
 }
