@@ -12,6 +12,9 @@
   <a href="#" class="float">
     <i class="fas fa-arrow-up my-float"></i>
   </a>
+  <div class="sidebar-menu-btn">
+  <button onclick="setHidden()" ><i class="fas fa-bars"></i></button>
+  </div>
   <body style="margin: 0">
     <div class="container">
 		<div >
@@ -26,5 +29,22 @@
       </div>
     </div>
     </div> 
+    <script>
+      let muc = 0;
+      function setHidden() {
+          if(muc === 1)
+              {
+                  document.getElementById("show").setAttribute("id", "hidden")
+                  muc = 0
+              }
+          else
+              {
+                  document.getElementById("hidden").setAttribute("id", "show")
+                  muc = 1
+              }
+            
+      }
+  </script>
   </body>
+
 </html>

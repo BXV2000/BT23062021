@@ -1,26 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
 .container {
   display: flex;
   min-width: 100%;
-  background-color: yellow;
 }
-.info-description{
+.info-description {
   padding-left: 20vw;
 }
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#0C9;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #0c9;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
 }
-.my-float{
-	margin-top:1.5em;
+.my-float {
+  margin-top: 1.5em;
 }
-html{
-	scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+}
+
+.sidebar-menu-btn {
+  display: none;
+  position: fixed;
+  background-color: #020912;
+}
+@media screen and (max-width: 1125px) {
+  .sidebar-menu-btn {
+    display: flex;
+    position: fixed;
+    background-color: transparent;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+    justify-content: center;
+  }
+
+  .sidebar-menu-btn > button {
+    background-color: #6d6e7c;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+  }
+
+  .info-description {
+    padding-left: 0;
+  }
+
+  .float {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+  }
 }
