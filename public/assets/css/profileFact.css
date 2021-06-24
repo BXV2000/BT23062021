@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     margin: 10px;
-    max-width: 15%;
+    max-width: 60%;
 }
 .simple-icon{
     width: 45px;
@@ -28,6 +28,8 @@
 .stat-description{
     color: rgb(34, 54, 90);
 }
+/* .worker-stat-content{
+} */
 @media screen and (max-width:995px){
     .worker-stat-container{
         display: grid;
