@@ -1,5 +1,8 @@
+.fact{
+    color: rgb(34, 54, 90);
+}
 .blue-dash-sympol{
-    margin-top: -2em;
+    margin-top: -0.5em;
     color: rgb(41, 205, 255);
 }
 .worker-stat-container{
@@ -22,5 +25,5 @@
     max-height: 45%;
 }
 .stat-description{
-
+    color: rgb(34, 54, 90);
 }
