@@ -28,6 +28,7 @@
 .stat-description {
   color: rgb(34, 54, 90);
 }
+
 @media screen and (max-width: 995px) {
   .worker-stat-container {
     display: grid;
@@ -45,8 +46,9 @@
     flex-direction: row;
     margin: 10px;
     max-width: 60%;
+  }
 }
-.simple-icon{
+/* .simple-icon{
     width: 45px;
     height: 45px;
 }
@@ -54,7 +56,7 @@
     color: rgb(34, 54, 90);
 }
 /* .worker-stat-content{
-} */
+} 
 @media screen and (max-width:995px){
     .worker-stat-container{
         display: grid;
@@ -72,4 +74,4 @@
         flex-direction: row;
         justify-content: space-around;
     }
-}
+} */
