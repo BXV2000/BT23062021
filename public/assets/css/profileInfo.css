@@ -2,7 +2,11 @@
     display:flex;
     margin:5px;
     flex-direction:column;
-    flex-wrap: wrap;
+    
+}
+.profile-picture-container{
+    display:flex;
+    max-width:307.75px;
 }
 .blue-text{
     color:blue;
@@ -13,6 +17,7 @@
 }
 .profile-info-container{
     display: flex;
+    letter-spacing: -0.01rem;
 }
 .profile-info-sheet{
     display:flex;
@@ -20,16 +25,30 @@
     flex-direction: column;
     margin-top: 10px;
 }
+.profile-info-quote{
+    font-size:12px;
+}
 .profile-info-h3{
     color:darkblue
 }
 .profile-details{
     margin:5px
 }
-
+.profile-sheet-container{
+    display: flex;
+}
 @media screen and (max-width:995px){
-  .profile-info-container{
-      display: flex;
-      flex-direction:column;
-  }
+    .profile-info-container{
+        display: flex;
+        align-items:center;
+        flex-direction:column;
+    }
+    .profile-sheet-container{
+        display:flex;
+        flex-direction:column;
+    }
+    .profile-picture-container{
+        display: flex;
+        max-width:auto;
+    }
 }
