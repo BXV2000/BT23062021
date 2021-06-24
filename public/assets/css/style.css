@@ -1,7 +1,6 @@
 .container {
   display: flex;
   min-width: 100%;
-<<<<<<< HEAD
   background-color: yellow;
 }
 .info-description{
@@ -22,7 +21,3 @@
 .my-float{
 	margin-top:1.5em;
 }
-=======
-  /* background-color: yellow; */
-}
->>>>>>> 86a6a454fda10a3d82e27301abe7808656cb0426
