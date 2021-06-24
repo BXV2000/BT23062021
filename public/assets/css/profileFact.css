@@ -1,0 +1,7 @@
+.workerStatContainer{
+    display: flex;
+    flex-direction: row;
+}
+.workerStat{
+    margin: 10px;
+}
