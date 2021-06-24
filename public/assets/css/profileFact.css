@@ -7,6 +7,10 @@
     flex-direction: row;
     justify-content: space-around;
 }
+.statNumber{
+    font-weight: bold;
+    font-size: 3em;
+}
 .workerStat{
     display: flex;
     flex-direction: row;
