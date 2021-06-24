@@ -35,36 +35,32 @@
   margin-top: 10px;
 }
 
-.sidebar-icons > img {
-  width: 12px;
-  height: 12px;
-  padding: 8px;
+.sidebar-icons > a {
+  padding: 10px;
   background-color: #20232f;
   color: white;
   border-radius: 50%;
   margin: 5px;
 }
 
-.sidebar-container > a {
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.sidebar-menu > a {
   text-decoration: none;
   color: #848790;
   margin-top: 20px;
   margin-left: 10%;
 }
 
-.sidebar-container > a:hover {
+.sidebar-menu > a:hover {
   color: #429bd4;
 }
 
-/*
-  .char :hover{
-    .con{
-      sdfajhsdklfhasjk
-    }
-  }
-*/
-
-.sidebar-container .sidebar-menu-text:hover {
+.sidebar-menu .sidebar-menu-text:hover {
   color: #ffffff;
 }
 
