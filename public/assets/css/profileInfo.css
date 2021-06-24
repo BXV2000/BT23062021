@@ -4,6 +4,10 @@
     flex-direction:column;
     
 }
+.profile-picture-container{
+    display:flex;
+    max-width:307.75px;
+}
 .blue-text{
     color:blue;
     margin-right: 3px;
@@ -36,10 +40,15 @@
 @media screen and (max-width:995px){
     .profile-info-container{
         display: flex;
+        align-items:center;
         flex-direction:column;
     }
     .profile-sheet-container{
         display:flex;
         flex-direction:column;
+    }
+    .profile-picture-container{
+        display: flex;
+        max-width:auto;
     }
 }
