@@ -1,7 +1,13 @@
 .workerStatContainer{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .workerStat{
+    display: flex;
+    flex-direction: row;
     margin: 10px;
+}
+.info-description{
+    padding-left: 20vw;
 }
