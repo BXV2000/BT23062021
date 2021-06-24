@@ -29,3 +29,18 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.sidebar-menu-btn {
+  display: none;
+  position: fixed;
+}
+@media screen and (max-width: 1125px) {
+  .sidebar-menu-btn {
+    display: flex;
+    position: fixed;
+    width: 60px;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+  }
+}

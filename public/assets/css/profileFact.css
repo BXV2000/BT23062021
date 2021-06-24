@@ -43,11 +43,6 @@
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
     flex-direction: row;
-<<<<<<< HEAD
-    justify-content: space-around;
-  }
-}
-=======
     margin: 10px;
     max-width: 60%;
 }
@@ -78,4 +73,3 @@
         justify-content: space-around;
     }
 }
->>>>>>> f9721f50ea84fd445b99fac4b543dec7a38b4b6a
