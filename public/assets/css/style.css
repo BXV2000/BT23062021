@@ -1,7 +1,6 @@
 .container {
   display: flex;
   min-width: 100%;
-  /* background-color: yellow; */
 }
 .info-description{
   padding-left: 20vw;
@@ -20,4 +19,7 @@
 }
 .my-float{
 	margin-top:1.5em;
+}
+html{
+	scroll-behavior: smooth;
 }
