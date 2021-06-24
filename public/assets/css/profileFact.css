@@ -1,3 +1,7 @@
+.blueDashSympol{
+    margin-top: -2em;
+    color: rgb(41, 205, 255);
+}
 .workerStatContainer{
     display: flex;
     flex-direction: row;
@@ -8,4 +12,8 @@
     flex-direction: row;
     margin: 10px;
     max-width: 15%;
+}
+.simpleIcon{
+    max-width: 45%;
+    max-height: 45%;
 }
