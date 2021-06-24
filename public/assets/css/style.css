@@ -21,3 +21,6 @@
 .my-float{
 	margin-top:1.5em;
 }
+html{
+	scroll-behavior: smooth;
+}
