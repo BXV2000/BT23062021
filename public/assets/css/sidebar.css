@@ -24,10 +24,14 @@
   margin: 0;
   text-align: center;
   margin-top: 20px;
+  font-size: 25px;
+  color: #ffffff;
 }
 
 .sidebar-icons {
   display: flex;
+  height: 80px;
+  width: 80px;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -41,6 +45,7 @@
   color: white;
   border-radius: 50%;
   margin: 5px;
+  font-size: 17px;
 }
 
 .sidebar-menu {
@@ -52,7 +57,7 @@
 .sidebar-menu > a {
   text-decoration: none;
   color: #848790;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-left: 10%;
 }
 
